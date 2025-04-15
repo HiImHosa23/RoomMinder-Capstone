@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
 export class NavbarComponent {
   pages = [
     {title: "Dashboard", page: "/dashboard"},
-    {title: "Bill Splitter", page: "/billsplitter"}
+    {title: "Bill Splitter", page: "/billsplitter"},
+    {title: "Profile", page: "/profile"}
   ]
 }
