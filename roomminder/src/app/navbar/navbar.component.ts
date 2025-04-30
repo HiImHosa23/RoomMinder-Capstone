@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 })
 // Pages go here 
 export class NavbarComponent {
+  menuOpen = false;
+  toggleMenu(){
+    this.menuOpen = !this.menuOpen;
+  }
   pages = [
     {title: "Dashboard", page: "/dashboard"},
     {title: "Bill Splitter", page: "/billsplitter"},
@@ -16,3 +20,4 @@ export class NavbarComponent {
     {title: "Profile", page: "/profile"}
   ]
 }
+
