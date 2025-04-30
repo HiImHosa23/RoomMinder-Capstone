@@ -1,0 +1,26 @@
+nav{
+    background-color: #3f9075;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    font-weight: bold;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+

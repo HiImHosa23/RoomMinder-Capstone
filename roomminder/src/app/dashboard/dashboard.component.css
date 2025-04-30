@@ -7,6 +7,21 @@
 }
 /* Temp styles */
 .event-container{
-    border: 1px solid black;
+    margin-top: 20px;
+    background: #e6fff9;
+    padding: 10px;
+    border-left: 5px solid #4bdab9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.dashboard-content{
+    flex-grow: 1;
+    background-color: #f0f9f5;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+header{
     text-align: center;
 }
