@@ -1,0 +1,35 @@
+.chore-form{
+    background-color: rgb(163, 231, 213);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 30px auto;
+}
+
+.chore-form label{
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.chore-form input[type="text"],
+.chore-from input[type="date"],
+.chore-form select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+}
+
+.chore-form .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chore-form button{
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+}
