@@ -26,7 +26,7 @@
 .bills-container .two-buttons {
     display: flex;
     justify-content: space-between;
-    gap: 10px;  /* ✅ ensures even spacing instead of using margins */
+    gap: 10px; 
     margin-bottom: 15px;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .bills-container > button {
-    width: 100%;  /* ✅ makes "Add Roommate" and "Submit Bill" stretch full width */
+    width: 100%;  
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 6px;
