@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   templateUrl: './bill-splitter.component.html',
   styleUrl: './bill-splitter.component.css'
 })
+
 export class BillSplitterComponent {
+  
+
+
 
 }
