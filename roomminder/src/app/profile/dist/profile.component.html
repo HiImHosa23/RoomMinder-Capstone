@@ -1,12 +1,14 @@
 <div class="user-profile">
-    <img src="">
-    <p>Profile stuff goes here</p>
-    <button>Edit Profile</button>
+    <img [src]="user.profilePic" alt="Profile Picture">
+    <h2>{{ user.name }}</h2>
+    <button (click)="editProfile()">Edit Profile</button>
 </div>
 
 <div class="stuff-box">
     <section class="user-details">
-        <p>Things about user here</p>
+        <h3>User Details</h3>
+        <p><strong>Email:</strong> {{ user.email }}</p>
+        <p><strong>Bio:</strong> {{ user.bio }}</p>
     </section>
 
     <section class="roommates">

@@ -8,6 +8,32 @@ import { Component } from '@angular/core';
 })
 export class ProfileComponent {
   user = {
-    name: 'Hosa Rivera Guillen'
+    name: 'Hosa Rivera Guillen',
+    email: 'woahemail@example.com',
+    profilePic: 'https://thumbs.dreamstime.com/b/smiling-woman-headshot-4416894.jpg',
+    bio: 'Loves art, music, and gaming.'
   };
+
+  roommates = [
+    {
+      name: 'Roommate 1',
+      email: 'roommate@example.com',
+      profilePic: 'https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ=',
+      bio: 'likes books'
+    }
+  ];
+
+  selectedRoommate: any = null;
+
+  editProfile(){
+    alert('Edit Profile was clicked')
+  }
+
+  selectRoommate(roommate:any){
+    this.selectedRoommate = roommate;
+  }
+
+  closeRoommate(){
+    this.selectedRoommate = null;
+  }
 }
