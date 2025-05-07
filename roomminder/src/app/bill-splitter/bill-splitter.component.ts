@@ -8,8 +8,6 @@ import { Component } from '@angular/core';
 })
 
 export class BillSplitterComponent {
-  
-
-
+  //Figure out easier logic
 
 }
