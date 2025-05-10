@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ListMakerComponent } from './list-maker/list-maker.component';
 import { ChoreAssignerComponent } from './chore-assigner/chore-assigner.component';
+import { LoginComponent } from './login/login.component';
 
 //Routes to pages will go here!
 export const routes: Routes = [
@@ -12,5 +13,6 @@ export const routes: Routes = [
     {path: "billsplitter", component: BillSplitterComponent},
     {path: "listmaker", component: ListMakerComponent},
     {path: "choreassigner", component: ChoreAssignerComponent},
-    {path: "profile", component: ProfileComponent}
+    {path: "profile", component: ProfileComponent},
+    {path: "login", component: LoginComponent}
 ];

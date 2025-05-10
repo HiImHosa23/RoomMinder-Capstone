@@ -17,7 +17,8 @@ export class NavbarComponent {
     {title: "Bill Splitter", page: "/billsplitter"},
     {title: "List Maker", page: "/listmaker"},
     {title: "Chore Assigner", page: "/choreassigner"},
-    {title: "Profile", page: "/profile"}
+    {title: "Profile", page: "/profile"},
+    {title: "Login", page: "login"}
   ]
 }
 
