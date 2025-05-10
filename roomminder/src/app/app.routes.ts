@@ -5,6 +5,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { ListMakerComponent } from './list-maker/list-maker.component';
 import { ChoreAssignerComponent } from './chore-assigner/chore-assigner.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 //Routes to pages will go here!
 export const routes: Routes = [
@@ -14,5 +15,6 @@ export const routes: Routes = [
     {path: "listmaker", component: ListMakerComponent},
     {path: "choreassigner", component: ChoreAssignerComponent},
     {path: "profile", component: ProfileComponent},
-    {path: "login", component: LoginComponent}
+    {path: "login", component: LoginComponent},
+    {path: "register", component: RegisterComponent}
 ];

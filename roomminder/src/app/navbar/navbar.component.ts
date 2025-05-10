@@ -18,7 +18,8 @@ export class NavbarComponent {
     {title: "List Maker", page: "/listmaker"},
     {title: "Chore Assigner", page: "/choreassigner"},
     {title: "Profile", page: "/profile"},
-    {title: "Login", page: "login"}
+    {title: "Login", page: "/login"},
+    {title: "Register", page: "/register"}
   ]
 }
 
