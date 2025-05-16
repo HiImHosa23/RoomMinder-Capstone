@@ -8,22 +8,25 @@ import { Router } from '@angular/router';
   styleUrl: './chore-assigner.component.css'
 })
 export class ChoreAssignerComponent {
-  constructor(private router: Router) {}
+  selectedRoommate: string = '';
+  showDaForm: boolean = false;
 
-  submitChore() {
-    const choreInput = (document.querySelector('input[placeholder]') as HTMLInputElement).value;
-    const roommate = (document.getElementById('roommate') as HTMLSelectElement).value;
-    const date = (document.getElementById('date') as HTMLInputElement).value;
-    const priority = (document.getElementById('priority-class') as HTMLSelectElement).value;
+  selectDaRoommate(name: string){
+    this.selectedRoommate = name;
+    this.showDaForm = true;
+  }
+  
+  submitDaForm(chore: string, date: string, priority: string){
+    console.log('Chore was assigned:', {
+      to: this.selectedRoommate, chore, date, priority
+    });
 
-    const choreData = {
-      chore: choreInput,
-      roommate,
-      date,
-      priority
-    };
+    alert(`Completed Assignment "${chore} to ${this.selectedRoommate} on ${date}(Priority: ${priority})`);
+    this.cancelIt();
+  }
 
-    console.log('Chore submitted:', choreData);
-    this.router.navigate(['/dashboard'], {state: {chore: choreData}});
+  cancelIt(){
+    this.showDaForm = false;
+    this.selectedRoommate = '';
   }
 }
