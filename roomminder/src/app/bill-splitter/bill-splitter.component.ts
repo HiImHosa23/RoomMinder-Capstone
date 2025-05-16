@@ -8,6 +8,23 @@ import { Component } from '@angular/core';
 })
 
 export class BillSplitterComponent {
-  //Figure out easier logic
+  theRoommates: string[] = [];
 
+  addARoommate(name: string){
+    if(name && !this.theRoommates.includes(name.trim())){
+      this.theRoommates.push(name.trim());
+    }
+  }
+
+  removeDaRoommate(index: number){
+    this.theRoommates.splice(index, 1);
+  }
+
+  splitEvenly(){
+
+  }
+
+  submitDaBill(){
+
+  }
 }

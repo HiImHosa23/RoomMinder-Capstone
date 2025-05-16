@@ -1,22 +1,18 @@
 <div class="bills-container">
     <h2>Bill Splitter</h2>
-    <label> Bill Name:
-        <input type="text" id="nameOfBill">
-    </label>
 
-    <label> Total:
-        <input type="number" id="totalOfBill">
-    </label>
+    <label> Bill Name:</label>
+        <input type="text" #billNameInput placeholder="e.g., Lunch">
 
-    <div id="roommatesContainer"></div>
+    <label> Total Amount:</label>
+        <input type="number" #totalInput step="0.00" placeholder="e.g., 15.00">
 
-    <div class="two-buttons">
-        <button>Split Evenly</button>
-        <button>Manual Split</button> <!-- Go into this more -->
+    <div id="roommates-container">
+        <h3>Roommates</h3>
     </div>
 
-    <button>Add Roommate</button>
-
-    <button>Submit Bill</button>
-    <div id="resultContainer"></div>
+    <div class="buttons">
+        <button>Split Evenly</button>
+        <button>Submit Bill</button>
+    </div>
 </div>
