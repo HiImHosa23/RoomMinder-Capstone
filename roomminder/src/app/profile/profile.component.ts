@@ -8,10 +8,12 @@ import { Component } from '@angular/core';
 })
 export class ProfileComponent {
   user = {
-    name: 'Hosa Rivera Guillen',
+    name: 'Amy Sinclair',
     email: 'woahemail@example.com',
     profilePic: 'https://thumbs.dreamstime.com/b/smiling-woman-headshot-4416894.jpg',
-    bio: 'Loves art, music, and gaming.'
+    likes: 'Loves art, music, and gaming.',
+    dislikes: 'Messy rooms, loud music, and loud people',
+    bio: 'I am nice and I am a tidy person. I like to go out and walk around the city.'
   };
 
   roommates = [

@@ -1,15 +1,35 @@
 .user-profile{
-    border: 1px solid black;
+    padding-top: 20px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
 }
 
 .user-details{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    text-align: center;
 }
 
 .roommates{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    text-align: center;
 }
 
 img{
-    width: 100px;
+    width: 150px;
+    border-radius: 80px;
+    border:4px solid #1f5e49;
+}
+
+button{
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #3f9075;
+    border-style: none;
+    color: #ffffff
 }
