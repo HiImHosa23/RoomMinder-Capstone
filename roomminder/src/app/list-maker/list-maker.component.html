@@ -2,11 +2,13 @@
     <h1>Grocery/Task List</h1>
 
     <div class="input">
-        <input type="text"/>
-        <button>Add</button>
+        <input id="inputItem" type="text" placeholder="Add a task/grocery item..."/>
+        <button (click)="addItem()">+</button>
+        <ul id="itemList"></ul>
     </div>
 
-    <div class="clear">
+    <!-- Add later -->
+    <!-- <div class="clear">
         <button>Clear All</button>
-    </div>
+    </div> -->
 </div>
