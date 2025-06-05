@@ -5,7 +5,6 @@
     text-align: center;
     padding-bottom: 20px
 }
-/* Temp styles */
 .event-container{
     margin-top: 20px;
     background: #e6fff9;
@@ -23,5 +22,10 @@
 }
 
 header{
+    text-align: center;
+}
+
+h2{
+    padding-top: 20px;
     text-align: center;
 }

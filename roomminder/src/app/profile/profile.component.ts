@@ -16,26 +16,28 @@ export class ProfileComponent {
     bio: 'I am nice and I am a tidy person. I like to go out and walk around the city.'
   };
 
-  roommates = [
-    {
-      name: 'Roommate 1',
-      email: 'roommate@example.com',
-      profilePic: 'https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ=',
-      bio: 'likes books'
-    }
-  ];
 
-  selectedRoommate: any = null;
+  //Hardcode for now
+  // roommates = [
+  //   {
+  //     name: 'Roommate 1',
+  //     email: 'roommate@example.com',
+  //     profilePic: 'https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ=',
+  //     bio: 'likes books'
+  //   }
+  // ];
+
+  // selectedRoommate: any = null;
 
   editProfile(){
     alert('Edit Profile was clicked')
   }
 
-  selectRoommate(roommate:any){
-    this.selectedRoommate = roommate;
-  }
+  // selectRoommate(roommate:any){
+  //   this.selectedRoommate = roommate;
+  // }
 
-  closeRoommate(){
-    this.selectedRoommate = null;
-  }
+  // closeRoommate(){
+  //   this.selectedRoommate = null;
+  // }
 }

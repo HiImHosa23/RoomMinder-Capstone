@@ -1,5 +1,4 @@
 import { Component, Signal, InputSignal, WritableSignal, computed, signal, input } from '@angular/core';
-import { SignalNode } from '@angular/core/primitives/signals';
 import { DateTime, Info, Interval } from 'luxon';
 import { CommonModule } from '@angular/common';
 import { Meetings } from './meetings.interface';

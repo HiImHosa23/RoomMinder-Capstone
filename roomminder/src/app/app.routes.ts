@@ -15,8 +15,8 @@ export const routes: Routes = [
     {path: "billsplitter", component: BillSplitterComponent},
     {path: "listmaker", component: ListMakerComponent},
     {path: "choreassigner", component: ChoreAssignerComponent},
-    {path: "profile", component: ProfileComponent},
     {path: "login", component: LoginComponent},
     {path: "register", component: RegisterComponent},
-    {path: "findroommates", component: FindRoommatesComponent}
+    {path: "findroommates", component: FindRoommatesComponent},
+    {path: "profile", component: ProfileComponent}
 ];

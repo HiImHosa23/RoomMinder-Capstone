@@ -17,10 +17,10 @@ export class NavbarComponent {
     {title: "Bill Splitter", page: "/billsplitter"},
     {title: "List Maker", page: "/listmaker"},
     {title: "Chore Assigner", page: "/choreassigner"},
-    {title: "Profile", page: "/profile"},
     {title: "Login", page: "/login"},
     {title: "Register", page: "/register"},
-    {title: "Find Roommates", page: "/findroommates"}
+    {title: "Find Roommates", page: "/findroommates"},
+    {title: "Profile", page: "/profile"}
   ]
 }
 
