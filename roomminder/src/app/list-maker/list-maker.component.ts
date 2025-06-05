@@ -18,6 +18,7 @@ export class ListMakerComponent {
       li.textContent = value;
       const btn = document.createElement('button');
       btn.textContent = 'Remove';
+      btn.classList.add('remove-btn');
       btn.onclick = () => list.removeChild(li);
 
       li.appendChild(btn);
