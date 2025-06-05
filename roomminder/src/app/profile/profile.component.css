@@ -41,6 +41,7 @@
 .roommates{
     /* border: 1px solid black; */
     text-align: center;
+    margin-top: 30px;
 }
 
 .user-profile button{
@@ -62,4 +63,41 @@
     font-style: italic;
     color: #5191ff;
     font-weight: bold;
+}
+
+.roommie-cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.roommie-card{
+    background-color: #f0f8f5;
+    border: 2px solid #3f9075;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.roommie-card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.roommie-card h4{
+    margin: 10px 0 5px;
+    color: #1f5e49;
+}
+
+.roommie-card .mini-bio{
+    font-style: italic;
+    font-size: 0.9em;
+    color: #444;
+    margin-top: 10px;
 }
