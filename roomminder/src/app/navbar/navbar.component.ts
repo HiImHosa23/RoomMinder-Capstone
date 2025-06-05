@@ -19,7 +19,8 @@ export class NavbarComponent {
     {title: "Chore Assigner", page: "/choreassigner"},
     {title: "Profile", page: "/profile"},
     {title: "Login", page: "/login"},
-    {title: "Register", page: "/register"}
+    {title: "Register", page: "/register"},
+    {title: "Find Roommates", page: "/findroommates"}
   ]
 }
 
